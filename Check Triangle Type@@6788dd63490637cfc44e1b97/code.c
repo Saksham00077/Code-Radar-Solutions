@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d",&a,&b,&c);
+    if(a==b==c){
+        printf("Equilateral");
+    }else if (a==b||b==c||a==c){
+        printf("Iscosceles");
+    }else{
+        printf("Scalene");
+    }
+    return 0;
+}
