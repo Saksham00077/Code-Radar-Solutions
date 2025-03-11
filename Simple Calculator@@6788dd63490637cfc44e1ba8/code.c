@@ -5,18 +5,18 @@ int main(){
     char c;
     scanf("%c",&c);
     if(c=='+'){
-        printf("%d",a+b);
+        printf("%d\n",a+b);
     }else if(c=='-'){
-        printf("%d",a-b);
+        printf("%d\n",a-b);
         }
     else if(c=='*'){
-        printf("%d",a*b);
+        printf("%d\n",a*b);
         }
     else if(c=='/'){
         if (b == 0) {
             printf("error");
         } else {
-            printf("%d", a / b);
+            printf("%d\n", a / b);
         }
         }
     else{
