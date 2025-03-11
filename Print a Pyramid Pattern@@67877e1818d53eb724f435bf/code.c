@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int rows = 5; // Number of rows in the pyramid
+    int rows;
+    scanf("%d",&rows);
 
     for (int i = 1; i <= rows; i++) {
         // Printing spaces
