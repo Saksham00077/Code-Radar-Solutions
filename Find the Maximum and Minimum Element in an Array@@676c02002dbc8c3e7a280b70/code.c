@@ -24,7 +24,7 @@ int main() {
     }
 
     // Print the results
-    printf("%d", min);
+    printf("%d ", min);
     printf("%d", max);
 
     return 0;
