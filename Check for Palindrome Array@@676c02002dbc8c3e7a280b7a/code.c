@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+    char max;
     int n;
     scanf("%d",&n);
     int arr[n];
@@ -8,10 +9,11 @@ int main(){
     }
     for (int j=0;j<n;j++){
         if((arr[0]==arr[n-1])&&(arr[1]==arr[n-2])){
-            printf("YES");
-        }else{
-            printf("NO");
+            max="YES"
         }
+    
+    }if((arr[0]==arr[n-1])&&(arr[1]==arr[n-2])){
+        printf("%c",max);
     }
-    return 0;
+return 0;
 }
