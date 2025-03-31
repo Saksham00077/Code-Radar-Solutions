@@ -3,6 +3,9 @@ int main(){
     int max;
     int n;
     scanf("%d",&n);
+    if (n==1){
+        printf("YES");
+    }
     int arr[n];
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
