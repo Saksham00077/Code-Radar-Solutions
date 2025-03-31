@@ -14,6 +14,8 @@ int main(){
     
     }if((arr[0]==arr[n-1])&&(arr[1]==arr[n-2])){
         printf("YES");
+    }else{
+        printf("NO");
     }
 return 0;
 }
