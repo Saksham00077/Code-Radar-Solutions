@@ -7,9 +7,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for (int j=1;j<n;j++){
-        if((arr[j]<arr[j+1])&&(arr[j+1]>arr[j+2])){
-            printf("%d",arr[j+1]);
-            break;
+        if((arr[j]>arr[j-1])&&(arr[j]>arr[j+1])){
+            printf("%d",arr[j]);
+            return;
         }
     }
 }
