@@ -9,7 +9,7 @@ int main(){
     }
     for (int j=0;j<n;j++){
         if((arr[0]==arr[n-1])&&(arr[1]==arr[n-2])){
-            max="YES"
+            max="YES";
         }
     
     }if((arr[0]==arr[n-1])&&(arr[1]==arr[n-2])){
